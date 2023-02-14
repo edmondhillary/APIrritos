@@ -66,6 +66,7 @@ border-radius: 3rem;
       background-color: rgba(128, 128, 128, 0.412);
     }
     .breedTd{
+      cursor: pointer;
       font-weight: 800;
       width: 30%;
     }

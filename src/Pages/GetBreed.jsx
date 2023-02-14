@@ -38,7 +38,6 @@ useEffect(()=>{
                 <input type={'text'}  onChange={handleOnChange} className={'get-breed-button inputs'} id={'breedInput'} placeholder={'Type the breed'} autoFocus/>
             </Header>
             <Main>
-
             {url && <img className='get-breed-img' src={url} />}
             </Main>
         </div>
