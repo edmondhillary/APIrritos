@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+  }
+  /* background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000'); */
+.breedsClass, .App{
+  background-color:lightcyan;
+  width: 100%;
+  min-height: 100vh;
+    }
+    .headerClass{
+      font-size: large;
+      font-weight: 700;
+   padding: 1rem;
+      background-color:rgb(244, 244, 244);
+      /* margin: 1rem;   */
+border-radius: 3rem;
+      width: 90%;
+      height: 100%;
+    }
+    .father-header-class{
+     
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      
+    }
+    .father-header-class Button{
+      padding: 1rem;
+    }
+    .randomContainer{
+      margin: auto;
+      background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000');
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding: 1rem;
+      height: 100vh;
+    }
+    .imageRandom{
+      width: auto;
+      height: 500px;
+     border-radius: 3rem;
+     padding: 1rem;
+
+
+    }
+    .table{
+      /* border: 3px solid black; */
+      padding: 0.5rem;
+    }
+    .subreedsClass{
+      font-size: larger;
+      padding: 0.5rem;
+      border: 0.5px solid black;
+      text-align: center;
+
+    }
+    .table th{
+      padding: 1rem;
+      text-transform:uppercase;
+      text-align: center;
+      border: 2px solid black;
+      background-color: rgba(128, 128, 128, 0.412);
+    }
+    .breedTd{
+      font-weight: 800;
+      width: 30%;
+    }
+    .sub-breeds-Class{
+      font-style: italic;
+      text-transform: capitalize;
+      font-weight: 700;
+    }
+    .by-breed-container{
+      background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000');
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: space-between;
+    
+    }
+  
+    .breedImage{
+      width: 25%;
+     height: auto;
+      padding: 3rem;
+      border-radius: 5rem;
+      
+    }
+    .center-buttons{
+      background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      
+      /* padding-bottom: 8rem; */
+    }
+    .center-buttons h1{
+      margin-bottom: 9rem;
+      color: white;
+     text-decoration:wavy;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight:bold;
+      letter-spacing: 0.8rem;
+      text-align: center;      
+
+    }
+    .all-breads-container{
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000');
+      background-color: rgba(0, 0, 0, 0.213);
+      
+    }
+    .button-breed{
+      padding-left: 1rem;
+      align-self: center;
+    }
+    .button-byBreed{
+      width: 500px;
+      margin-left: 17rem;
+      align-items: center;
+    }
+ .homeButton{
+  margin: 0.55rem;
+  padding: 1rem;
+  /* background-color: #fff; */
+ }
+ .get-breed-container{
+  height: 100vh;
+  background-image: url('https://img.freepik.com/vector-premium/lindo-patron-fisuras-dibujos-animados-bebe-perro-hueso-ninos-animal-sobre-fondo-azul_71374-240.jpg?w=2000');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+ }
+ .get-breed-button{
+  width: 70%;
+  border-radius: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  margin-bottom: 4rem;
+  margin-left: 5rem;
+  text-transform: capitalize;
+ }
+ .get-breed-img{
+  max-width: 900px;
+  max-height: 700px;
+  width: auto;
+  height:50%;
+  border-radius: 2rem;
+
+ }
+
